@@ -1,0 +1,218 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    background-color: #c9fff5 !important;
+    height: 100%;
+}
+
+nav {
+    background: #c9fff5 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 500;
+}
+
+nav ul a {
+    color: #004c4c !important;
+}
+
+nav img {
+    height: 50px;
+    width: auto;
+}
+
+.custom-toggler {
+    border: none !important;
+    background: none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+}
+
+#landing, #projects, #tools, #contact {
+    min-height: auto;
+}
+
+#landing h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 6rem;
+    color: #07fad6;
+}
+
+#landing h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+#landing h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+#landing p {
+    font-family: 'Ooen Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#name {
+    padding-top: 5px;
+}
+
+#aboutme {
+    border: 2px solid #008080;
+    border-radius: 25px;
+    background-color: #008080;
+    color:#c9fff5
+}
+
+#projects h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+#projects p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.main-text {
+    position: relative;
+    top: 0;
+    left: 0;
+    color: #004c4c;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+
+.duplicate-text {
+    position: absolute;
+    left: -5px;
+    top: 5px;
+    color: #07fad6;
+    font-size: 5rem;
+    font-weight: bold;
+    z-index: 1;
+}
+
+#projects img {
+    border-radius: 25px;
+}
+
+#project1, #project2, #project3, #project4 {
+    border-radius: 20px;
+    border: 2px solid #004c4c;
+}
+
+#tools h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #004c4c;
+    font-weight: 700;
+    font-style: oblique;
+}
+
+#tools img {
+    height: auto;
+    width: 140px;
+}
+
+#logo_colab {
+    padding: 30px 8px 30px 8px;
+}
+
+#contact img {
+    height: 64px;
+    width: 64px;
+}
+
+#contacts-container {
+    width: 100vw;
+    height: auto;
+}
+
+#contact img {
+    border: 15px solid #07fad6;
+    border-radius: 30px;
+    background-color: #07fad6
+}
+
+#form_container {
+    border: 3px solid #07fad6;
+    border-radius: 10px;
+}
+
+#button-s, #button-fm {
+    background: #07fad6 !important;
+    border: 3px solid #004c4c !important;
+    border-radius: 20px !important;
+}
+
+footer {
+    background: #008080;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 0.7rem;
+}
+
+#disclaimer {
+    font-family: 'Open Sans', sans-serif;
+    color: white !important;
+    font-size: small;
+}
+
+@media (min-width: 1200px) {
+    .xlg-screen-height {
+        height: 800px;
+    }
+}
+
+@media (max-width: 1999px) {
+    .lg-screen-height {
+        height: 560px;
+    }
+}
+
+@media (max-width: 991px) {
+    .md-screen-height {
+        height: 540px;
+    }
+}
+
+@media (max-width: 767px) {
+    .small-screen-height {
+        height: 540px;
+    }
+}
+
+@media (max-width: 575px) {
+    .xsmall-screen-height {
+        height: 530px;
+    }
+}
+
+#back-to-top {
+    height: 48px;
+    width: 48px;
+}
+
+#frontend, #engineering {
+    border: 5px solid #004c4c !important;
+    border-radius: 25px;
+}
+
+#mern, #others {
+    border: 5px solid #07fad6 !important;
+    border-radius: 25px;
+}
+
+#frontend-con {
+    height: 300px;
+}

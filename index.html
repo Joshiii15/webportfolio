@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <!-- Bootstrap Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>My Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#landing"
+          ><img src="./images/mylogo.png" alt="mylogo"
+        /></a>
+        <button
+          class="navbar-toggler custom-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <img src="./images/navbutton.png" alt="navbutton" />
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link text-center" href="#landing">home</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#projects">projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#tools">tools</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Landing -->
+    <div id="landing" class="container-fluid">
+      <div class="row">
+        <div
+          class="container-fluid d-flex flex-sm-column text-center mt-5 mt-sm-3"
+        >
+          <div class="row">
+            <div class="d-flex flex-column flex-lg-row g-1">
+              <div class="d-none d-lg-flex col-lg-1 order-lg-1"></div>
+              <div class="d-flex flex-column col-lg-5 order-lg-3">  
+                <div class="container-fluid col-12 col-sm-3 col-md-10">
+                    <img
+                    src="./images/myself.png"
+                    alt="my_photo"
+                    class="img-fluid mx-auto w-100 h-auto"
+                    />
+                </div>
+                <div class="container-fluid col-12 col-lg-6 col-lg-12">
+                    <div id="name" class="mt-3 mb-4 px-2">
+                    <h3>joshua velasco</h3>
+                    <h4>full stack web developer | ab engineer</h4>
+                    </div>
+                </div>
+              </div>
+              <div class="container-fluid col-12 col-sm-9 col-lg-4 mx-md-auto my-auto order-md-2">
+                <div class="row">
+                  <div class="d-flex flex-sm-column d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-center">
+                    <div class="d-none d-lg-flex container-lg-fluid justify-content-lg-center">
+                        <h1 id="hello">Hello!</h1>
+                    </div>
+                    <div id="aboutme" class="d-flex px-3 pt-3">
+                      <p>
+                        I'm an agricultural and biosystems engineer with a
+                        passion for web development - combining my engineering
+                        background, tech expertise, and creative flair, I strive
+                        to transform ideas into impactful outcomes!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-none d-lg-flex col-lg-1 order-lg-4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Landing -->
+
+    <!-- Projects -->
+    <div id="projects" class="container-fluid">
+      <div class="row">
+        <div class="container-fluid d-flex justify-content-center">
+          <div id="title" class="position-relative">
+            <div class="main-text">projects</div>
+            <div class="duplicate-text">projects</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row p-3 mt-3">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-1 col-lg-2 d-xl-none"></div>
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+              <!-- Project 1 -->
+              <div
+                class="container-fluid flex-column d-flex mb-5 xsmall-screen-height small-screen-height md-screen-height lg-screen-height xlg-screen-height"
+                id="project1"
+              >
+                <div class="mt-4 text-center px-2">
+                  <h3>ai for agriculture</h3>
+                  <p class="mt-3">
+                    Weed detection performance of YOLOv5s deep learning model in
+                    a simulated agricultural environment
+                  </p>
+                </div>
+                <div class="mt-auto text-center d-flex flex-column">
+                  <img
+                    src="./images/project1.png"
+                    alt="project1"
+                    class="img-fluid px-1"
+                  />
+                  <p class="text-muted mt-3">UPLB, 2023</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+              <!-- Project 2 -->
+              <div
+                class="container-fluid flex-column d-flex mb-5 xsmall-screen-height small-screen-height md-screen-height lg-screen-height xlg-screen-height"
+                id="project2"
+              >
+                <div class="mt-4 text-center px-2">
+                  <h3>mechatronics with arduino</h3>
+                  <p class="mt-3">
+                    Automated braking system for path control of a push-type
+                    wheeled device
+                  </p>
+                </div>
+                <div class="mt-auto text-center">
+                  <img
+                    src="./images/project2.png"
+                    alt="project2"
+                    class="img-fluid px-1"
+                  />
+                  <p class="text-muted mt-3">UPLB, 2022</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-1 col-lg-2 d-xl-none"></div>
+            <div class="col-md-1 col-lg-2 d-xl-none"></div>
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+              <!-- Project 3 -->
+              <div
+                class="container-fluid flex-column d-flex mb-5 xsmall-screen-height small-screen-height md-screen-height lg-screen-height xlg-screen-height"
+                id="project3"
+              >
+                <div class="mt-4 text-center px-2">
+                  <h3>solidworks 3d modeling</h3>
+                  <p class="mt-3">
+                    3D modeling and motion analysis of machines using Solidworks
+                  </p>
+                </div>
+                <div class="mt-auto text-center">
+                  <img
+                    src="./images/project3.png"
+                    alt="project3"
+                    class="img-fluid px-1"
+                  />
+                  <p class="text-muted mt-3">UPLB, 2024</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+              <!-- Project 4 -->
+              <div
+                class="container-fluid flex-column d-flex xsmall-screen-height small-screen-height md-screen-height lg-screen-height xlg-screen-height"
+                id="project4"
+              >
+                <div class="mt-4 text-center px-2">
+                  <h3>smart-ag robotics</h3>
+                  <p class="mt-3">Working on it, come check soon...</p>
+                </div>
+                <div class="mt-auto text-center">
+                  <img
+                    src="./images/project4.png"
+                    alt="project4"
+                    class="img-fluid px-1"
+                  />
+                  <p class="text-muted mt-3">UPLB, 2024</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Projects END -->
+
+    <!-- Tools -->
+    <div id="tools" class="container-fluid">
+      <div class="row">
+        <div class="container-fluid d-flex justify-content-center">
+          <div id="title" class="position-relative">
+            <div class="main-text">tools</div>
+            <div class="duplicate-text">tools</div>
+          </div>
+        </div>
+      </div>
+      <div class="row px-3">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- Frontend -->
+            <div
+              class="container-fluid d-flex flex-column col-md-10 col-lg-4 col-xl-2 justify-content-center"
+            >
+              <div class="text-center mb-3">
+                <h3>Frontend</h3>
+              </div>
+              <div class="container-fluid p-2 px-lg-auto" id="frontend">
+                <div class="row d-flex mx-auto">
+                  <div class="col-6 col-sm-3 col-lg-6">
+                    <img
+                      src="./images/logo-html5.png"
+                      alt="html"
+                      class="img-fluid"
+                      id="logo_html"
+                    />
+                  </div>
+                  <div class="col-6 col-sm-3 col-lg-6">
+                    <img
+                      src="./images/logo-css3.png"
+                      alt="css"
+                      class="img-fluid"
+                      id="logo_css"
+                    />
+                  </div>
+                  <div class="col-6 col-sm-3 col-lg-6">
+                    <img
+                      src="./images/logo-bootstrap.png"
+                      alt="bootstrap"
+                      class="img-fluid"
+                      id="logo_bs"
+                    />
+                  </div>
+                  <div class="col-6 col-sm-3 col-lg-6">
+                    <img
+                      src="./images/logo-javascript.png"
+                      alt="javascript"
+                      class="img-fluid"
+                      id="logo_js"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Frontend END -->
+
+            <!-- MERN -->
+            <div
+              class="container-fluid d-flex flex-column col-md-10 col-lg-4 col-xl-2 justify-content-center"
+            >
+              <div class="text-center my-3">
+                <h3>MERN</h3>
+              </div>
+              <div class="container-fluid p-2 px-lg-auto" id="mern">
+                <div class="row d-flex mx-auto">
+                  <div class="col-6 col-sm-3 col-lg-6">
+                    <img
+                      src="./images/logo-mongodb.png"
+                      alt="mongodb"
+                      class="img-fluid"
+                      id="logo_mongodb"
+                    />
+                  </div>
+                  <div class="col-6 col-sm-3 col-lg-6">
+                    <img
+                      src="./images/logo-expressjs.png"
+                      alt="expressjs"
+                      class="img-fluid"
+                      id="logo_expressjs"
+                    />
+                  </div>
+                  <div class="col-6 col-sm-3 col-lg-6">
+                    <img
+                      src="./images/logo-react.png"
+                      alt="react"
+                      class="img-fluid"
+                      id="logo_react"
+                    />
+                  </div>
+                  <div class="col-6 col-sm-3 col-lg-6">
+                    <img
+                      src="./images/logo-nodejs.png"
+                      alt="nodejs"
+                      class="img-fluid"
+                      id="logo_nodejs"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- MERN END -->
+
+            <!-- Engineering -->
+            <div
+              class="container-fluid d-flex flex-column col-md-10 col-lg-4 col-xl-2 justify-content-center"
+            >
+              <div class="text-center my-3">
+                <h3>Engineering</h3>
+              </div>
+              <div class="container-fluid p-2 px-lg-auto" id="engineering">
+                <div class="row d-flex mx-auto">
+                  <div class="col-6 col-sm-3 col-lg-6">
+                    <img
+                      src="./images/logo-arduino.png"
+                      alt="arduino"
+                      class="img-fluid px-2 py-3"
+                      id="logo_arduino"
+                    />
+                  </div>
+                  <div class="col-6 col-sm-3 col-lg-6">
+                    <img
+                      src="./images/logo-python.png"
+                      alt="python"
+                      class="img-fluid p-3"
+                      id="logo_python"
+                    />
+                  </div>
+                  <div class="col-6 col-sm-3 col-lg-6">
+                    <img
+                      src="./images/logo-pycharm.png"
+                      alt="pycharm"
+                      class="img-fluid p-3"
+                      id="logo_pycharm"
+                    />
+                  </div>
+                  <div class="col-6 col-sm-3 col-lg-6">
+                    <img
+                      src="./images/logo-sw.png"
+                      alt="solidworks"
+                      class="img-fluid p-2"
+                      id="logo_sw"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Engineering END-->
+
+            <!-- Other Tools -->
+            <div
+              class="container-fluid d-flex flex-column col-md-10 col-lg-6 col-xl-3 justify-content-center"
+            >
+              <div class="text-center my-3">
+                <h3>Other Tools</h3>
+              </div>
+              <div class="container-fluid p-2 px-lg-auto" id="others">
+                <div class="row d-flex mx-auto">
+                  <div class="col-6 col-sm-3 col-lg-4">
+                    <img
+                      src="./images/logo-git.png"
+                      alt="git"
+                      class="img-fluid"
+                      id="logo_git"
+                    />
+                  </div>
+                  <div class="col-6 col-sm-3 col-lg-4">
+                    <img
+                      src="./images/logo-sublime-text-3.png"
+                      alt="sublime"
+                      class="img-fluid"
+                      id="logo_sublime"
+                    />
+                  </div>
+                  <div class="col-6 col-sm-3 col-lg-4">
+                    <img
+                      src="./images/logo-postman.png"
+                      alt="postman"
+                      class="img-fluid"
+                      id="logo_postman"
+                    />
+                  </div>
+                  <div class="col-6 col-sm-3 col-lg-4">
+                    <img
+                      src="./images/logo-vsc.png"
+                      alt="vscode"
+                      class="img-fluid p-3"
+                      id="logo_vsc"
+                    />
+                  </div>
+                  <div class="d-none d-sm-flex col-sm-3 d-lg-none"></div>
+                  <div class="col-6 col-sm-3 col-lg-4">
+                    <img
+                      src="./images/logo-gcollab.png"
+                      alt="colab"
+                      class="img-fluid"
+                      id="logo_colab"
+                    />
+                  </div>
+                  <div class="col-6 col-sm-3 col-lg-4">
+                    <img
+                      src="./images/logo-github.png"
+                      alt="github"
+                      class="img-fluid p-3"
+                      id="logo_github"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Other Tools END -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Tools END-->
+
+    <!-- Contacts -->
+    <div id="contact" class="container-fluid mt-5">
+      <div class="row px-3">
+        <div class="container-fluid d-flex justify-content-center">
+          <div id="title" class="position-relative">
+            <div class="main-text">contacts</div>
+            <div class="duplicate-text">contacts</div>
+          </div>
+        </div>
+        <div class="row mx-auto mt-4">
+          <div
+            class="container-fluid d-flex justify-content-around"
+            id="contacts-container"
+          >
+            <div class="row">
+              <div class="container-fluid d-flex flex-inline">
+                <div class="px-1 px-sm-2 px-md-3">
+                  <a
+                    href="https://www.facebook.com/joshua.velasco.798"
+                    target="_blank"
+                    ><img
+                      src="./images/logo-linkedin.png"
+                      alt="linkedin"
+                      class="img-fluid"
+                  /></a>
+                </div>
+                <div class="px-1 px-sm-2 px-md-3">
+                  <a
+                    href="https://www.facebook.com/joshua.velasco.798"
+                    target="_blank"
+                    ><img src="./images/logo-fb.png" alt="fb" class="img-fluid"
+                  /></a>
+                </div>
+                <div class="px-1 px-sm-2 px-md-3">
+                  <a
+                    href="https://www.facebook.com/joshua.velasco.798"
+                    target="_blank"
+                    ><img src="./images/logo-ig.png" alt="ig" class="img-fluid"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-none d-md-flex col-md-2"></div>
+          <div class="contacts-container my-5 px-sm-5 col-md-8" id="form_container">
+            <h3 class="text-center my-4">Send an inquiry!</h3>
+            <form>
+              <div class="mb-3">
+                <label for="InputName" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="InputName"
+                  placeholder="John Doe"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="InputEmail" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="InputEmail"
+                  aria-describedby="emailHelp"
+                  placeholder="johndoe@email.com"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="Message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="Message"
+                  aria-describedby="emailHelp"
+                  placeholder="I want to ask about..."
+                ></textarea>
+                <div id="MessageHelp" class="form-text">
+                  Feel free to send your inquiries anytime!
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <button
+                  id="button-s"
+                  type="submit"
+                  class="btn mt-3 mb-4"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalDiv"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="d-none d-md-flex col-md-2"></div>
+        </div>
+      </div>
+
+      <!-- Modal Section Start -->
+      <div
+        class="modal fade"
+        id="modalDiv"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Thank you for contacting us!
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">Message Successfully Sent</div>
+            <div class="modal-footer">
+              <button
+                id="button-fm"
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Section End -->
+    </div>
+    <!-- Contacts END-->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="d-flex justify-content-center mb-3">
+          <a href="#landing"
+            ><img src="./images/top.png" alt="back to top" id="back-to-top"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="text-center p-3">
+        <h6 id="disclaimer">DISCLAIMER</h6>
+        <p>
+          The icons and logos used on this website are the property of their
+          respective owners. I do not claim ownership of any of these icons and
+          logos. They have been sourced from external websites or online
+          resources and are used purely for demonstration or illustrative
+          purposes. If you are the rightful owner of any content and would like
+          it to be removed or properly credited, please contact me.
+        </p>
+      </div>
+    </footer>
+    <!-- Bootstrap Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
